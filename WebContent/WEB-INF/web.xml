@@ -2,7 +2,7 @@
     
 	<servlet>
         <servlet-name>GrabaServlet</servlet-name>
-        <servlet-class>GrabaServlet</servlet-class>
+        <servlet-class>unab.com.GrabaServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaServlet</servlet-name>
@@ -19,7 +19,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>MiServlet</servlet-name>
-        <servlet-class>MiServlet</servlet-class>
+        <servlet-class>unab.com.MiServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>MiServlet</servlet-name>
@@ -28,7 +28,7 @@
 	
     <servlet>
         <servlet-name>GrabaAsigna</servlet-name>
-        <servlet-class>GrabaAsigna</servlet-class>
+        <servlet-class>unab.com.GrabaAsigna</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaAsigna</servlet-name>
@@ -37,7 +37,7 @@
     	
 	<servlet>
         <servlet-name>GrabaProducto</servlet-name>
-        <servlet-class>GrabaProducto</servlet-class>
+        <servlet-class>unab.com.GrabaProducto</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaProducto</servlet-name>
@@ -45,7 +45,7 @@
     </servlet-mapping>
 		<servlet>
         <servlet-name>ModificaProducto</servlet-name>
-        <servlet-class>ModificaProducto</servlet-class>
+        <servlet-class>unab.com.ModificaProducto</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaProducto</servlet-name>
@@ -53,7 +53,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaProducto</servlet-name>
-        <servlet-class>EliminaProducto</servlet-class>
+        <servlet-class>unab.com.EliminaProducto</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaProducto</servlet-name>
@@ -62,7 +62,7 @@
 	
 	<servlet>
         <servlet-name>GrabaInsumo</servlet-name>
-        <servlet-class>GrabaInsumo</servlet-class>
+        <servlet-class>unab.com.GrabaInsumo</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaInsumo</servlet-name>
@@ -70,7 +70,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaInsumo</servlet-name>
-        <servlet-class>ModificaInsumo</servlet-class>
+        <servlet-class>unab.com.ModificaInsumo</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaInsumo</servlet-name>
@@ -78,7 +78,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaInsumo</servlet-name>
-        <servlet-class>EliminaInsumo</servlet-class>
+        <servlet-class>unab.com.EliminaInsumo</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaInsumo</servlet-name>
@@ -87,7 +87,7 @@
 	
 	<servlet>
         <servlet-name>GrabaFuncionario</servlet-name>
-        <servlet-class>GrabaFuncionario</servlet-class>
+        <servlet-class>unab.com.GrabaFuncionario</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaFuncionario</servlet-name>
@@ -95,7 +95,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaFuncionario</servlet-name>
-        <servlet-class>ModificaFuncionario</servlet-class>
+        <servlet-class>unab.com.ModificaFuncionario</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaFuncionario</servlet-name>
@@ -103,7 +103,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaFuncionario</servlet-name>
-        <servlet-class>EliminaFuncionario</servlet-class>
+        <servlet-class>unab.com.EliminaFuncionario</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaFuncionario</servlet-name>
@@ -112,7 +112,7 @@
 	
 	<servlet>
         <servlet-name>GrabaFamilia</servlet-name>
-        <servlet-class>GrabaFamilia</servlet-class>
+        <servlet-class>unab.com.GrabaFamilia</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaFamilia</servlet-name>
@@ -120,7 +120,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>ModificaFamilia</servlet-name>
-        <servlet-class>ModificaFamilia</servlet-class>
+        <servlet-class>unab.com.ModificaFamilia</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaFamilia</servlet-name>
@@ -128,7 +128,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaFamilia</servlet-name>
-        <servlet-class>EliminaFamilia</servlet-class>
+        <servlet-class>unab.com.EliminaFamilia</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaFamilia</servlet-name>
@@ -137,7 +137,7 @@
 	
 	<servlet>
         <servlet-name>GrabaSubfamilia</servlet-name>
-        <servlet-class>GrabaSubfamilia</servlet-class>
+        <servlet-class>unab.com.GrabaSubfamilia</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaSubfamilia</servlet-name>
@@ -145,7 +145,7 @@
     </servlet-mapping>
  	<servlet>
         <servlet-name>ModificaSubfamilia</servlet-name>
-        <servlet-class>ModificaSubfamilia</servlet-class>
+        <servlet-class>unab.com.ModificaSubfamilia</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaSubfamilia</servlet-name>
@@ -153,7 +153,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaSubfamilia</servlet-name>
-        <servlet-class>EliminaSubfamilia</servlet-class>
+        <servlet-class>unab.com.EliminaSubfamilia</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaSubfamilia</servlet-name>
@@ -162,7 +162,7 @@
  
  <servlet>
         <servlet-name>GrabaOtraCaracteristica</servlet-name>
-        <servlet-class>GrabaOtraCaracteristica</servlet-class>
+        <servlet-class>unab.com.GrabaOtraCaracteristica</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaOtraCaracteristica</servlet-name>
@@ -170,7 +170,7 @@
     </servlet-mapping>
  	<servlet>
         <servlet-name>ModificaOtraCaracteristica</servlet-name>
-        <servlet-class>ModificaOtraCaracteristica</servlet-class>
+        <servlet-class>unab.com.ModificaOtraCaracteristica</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaOtraCaracteristica</servlet-name>
@@ -178,7 +178,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaOtraCaracteristica</servlet-name>
-        <servlet-class>EliminaOtraCaracteristica</servlet-class>
+        <servlet-class>unab.com.EliminaOtraCaracteristica</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaOtraCaracteristica</servlet-name>
@@ -187,7 +187,7 @@
  
 <servlet>
         <servlet-name>GrabaUnidadMedida</servlet-name>
-        <servlet-class>GrabaUnidadMedida</servlet-class>
+        <servlet-class>unab.com.GrabaUnidadMedida</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaUnidadMedida</servlet-name>
@@ -195,7 +195,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaUnidadMedida</servlet-name>
-        <servlet-class>ModificaUnidadMedida</servlet-class>
+        <servlet-class>unab.com.ModificaUnidadMedida</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaUnidadMedida</servlet-name>
@@ -203,7 +203,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaUnidadMedida</servlet-name>
-        <servlet-class>EliminaUnidadMedida</servlet-class>
+        <servlet-class>unab.com.EliminaUnidadMedida</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaUnidadMedida</servlet-name>
@@ -212,7 +212,7 @@
 	
 	<servlet>
         <servlet-name>GrabaBodega</servlet-name>
-        <servlet-class>GrabaBodega</servlet-class>
+        <servlet-class>unab.com.GrabaBodega</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaBodega</servlet-name>
@@ -220,7 +220,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaBodega</servlet-name>
-        <servlet-class>ModificaBodega</servlet-class>
+        <servlet-class>unab.com.ModificaBodega</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaBodega</servlet-name>
@@ -228,7 +228,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaBodega</servlet-name>
-        <servlet-class>EliminaBodega</servlet-class>
+        <servlet-class>unab.com.EliminaBodega</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaBodega</servlet-name>
@@ -237,7 +237,7 @@
 	
 	<servlet>
         <servlet-name>GrabaConceptoTecnico</servlet-name>
-        <servlet-class>GrabaConceptoTecnico</servlet-class>
+        <servlet-class>unab.com.GrabaConceptoTecnico</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaConceptoTecnico</servlet-name>
@@ -245,7 +245,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaConceptoTecnico</servlet-name>
-        <servlet-class>ModificaConceptoTecnico</servlet-class>
+        <servlet-class>unab.com.ModificaConceptoTecnico</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaConceptoTecnico</servlet-name>
@@ -253,7 +253,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaConceptoTecnico</servlet-name>
-        <servlet-class>EliminaConceptoTecnico</servlet-class>
+        <servlet-class>unab.com.EliminaConceptoTecnico</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaConceptoTecnico</servlet-name>
@@ -262,7 +262,7 @@
 	
 	<servlet>
         <servlet-name>GrabaFichaTecnica</servlet-name>
-        <servlet-class>GrabaFichaTecnica</servlet-class>
+        <servlet-class>unab.com.GrabaFichaTecnica</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaFichaTecnica</servlet-name>
@@ -270,7 +270,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaFichaTecnica</servlet-name>
-        <servlet-class>ModificaFichaTecnica</servlet-class>
+        <servlet-class>unab.com.ModificaFichaTecnica</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaFichaTecnica</servlet-name>
@@ -278,7 +278,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaFichaTecnica</servlet-name>
-        <servlet-class>EliminaFichaTecnica</servlet-class>
+        <servlet-class>unab.com.EliminaFichaTecnica</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaFichaTecnica</servlet-name>
@@ -287,7 +287,7 @@
 	
 	<servlet>
         <servlet-name>GrabaIngrediente</servlet-name>
-        <servlet-class>GrabaIngrediente</servlet-class>
+        <servlet-class>unab.com.GrabaIngrediente</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaIngrediente</servlet-name>
@@ -295,7 +295,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaIngrediente</servlet-name>
-        <servlet-class>ModificaIngrediente</servlet-class>
+        <servlet-class>unab.com.ModificaIngrediente</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaIngrediente</servlet-name>
@@ -303,7 +303,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaIngrediente</servlet-name>
-        <servlet-class>EliminaIngrediente</servlet-class>
+        <servlet-class>unab.com.EliminaIngrediente</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaIngrediente</servlet-name>
@@ -312,7 +312,7 @@
 	
 	<servlet>
         <servlet-name>GrabaUbicacion</servlet-name>
-        <servlet-class>GrabaUbicacion</servlet-class>
+        <servlet-class>unab.com.GrabaUbicacion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaUbicacion</servlet-name>
@@ -320,7 +320,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaUbicacion</servlet-name>
-        <servlet-class>ModificaUbicacion</servlet-class>
+        <servlet-class>unab.com.ModificaUbicacion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaUbicacion</servlet-name>
@@ -328,7 +328,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaUbicacion</servlet-name>
-        <servlet-class>EliminaUbicacion</servlet-class>
+        <servlet-class>unab.com.EliminaUbicacion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaUbicacion</servlet-name>
@@ -337,7 +337,7 @@
 	
 	<servlet>
         <servlet-name>GrabaCargo</servlet-name>
-        <servlet-class>GrabaCargo</servlet-class>
+        <servlet-class>unab.com.GrabaCargo</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaCargo</servlet-name>
@@ -345,7 +345,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaCargo</servlet-name>
-        <servlet-class>ModificaCargo</servlet-class>
+        <servlet-class>unab.com.ModificaCargo</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaCargo</servlet-name>
@@ -353,7 +353,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaCargo</servlet-name>
-        <servlet-class>EliminaCargo</servlet-class>
+        <servlet-class>unab.com.EliminaCargo</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaCargo</servlet-name>
@@ -362,7 +362,7 @@
 	
 	<servlet>
         <servlet-name>GrabaArea</servlet-name>
-        <servlet-class>GrabaArea</servlet-class>
+        <servlet-class>unab.com.GrabaArea</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaArea</servlet-name>
@@ -370,7 +370,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaArea</servlet-name>
-        <servlet-class>ModificaArea</servlet-class>
+        <servlet-class>unab.com.ModificaArea</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaArea</servlet-name>
@@ -378,7 +378,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaArea</servlet-name>
-        <servlet-class>EliminaArea</servlet-class>
+        <servlet-class>unab.com.EliminaArea</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaArea</servlet-name>
@@ -462,7 +462,7 @@
 	
 	<servlet>
         <servlet-name>GrabaTipoCliente</servlet-name>
-        <servlet-class>GrabaTipoCliente</servlet-class>
+        <servlet-class>unab.com.GrabaTipoCliente</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaTipoCliente</servlet-name>
@@ -470,7 +470,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaTipoCliente</servlet-name>
-        <servlet-class>ModificaTipoCliente</servlet-class>
+        <servlet-class>unab.com.ModificaTipoCliente</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaTipoCliente</servlet-name>
@@ -478,7 +478,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaTipoCliente</servlet-name>
-        <servlet-class>EliminaTipoCliente</servlet-class>
+        <servlet-class>unab.com.EliminaTipoCliente</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaTipoCliente</servlet-name>
@@ -487,7 +487,7 @@
 	
 	<servlet>
         <servlet-name>GrabaLineaProduccion</servlet-name>
-        <servlet-class>GrabaLineaProduccion</servlet-class>
+        <servlet-class>unab.com.GrabaLineaProduccion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaLineaProduccion</servlet-name>
@@ -495,7 +495,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaLineaProduccion</servlet-name>
-        <servlet-class>ModificaLineaProduccion</servlet-class>
+        <servlet-class>unab.com.ModificaLineaProduccion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaLineaProduccion</servlet-name>
@@ -503,7 +503,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaLineaProduccion</servlet-name>
-        <servlet-class>EliminaLineaProduccion</servlet-class>
+        <servlet-class>unab.com.EliminaLineaProduccion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaLineaProduccion</servlet-name>
@@ -512,7 +512,7 @@
 	
 	<servlet>
         <servlet-name>GrabaCliente</servlet-name>
-        <servlet-class>GrabaCliente</servlet-class>
+        <servlet-class>unab.com.GrabaCliente</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaCliente</servlet-name>
@@ -520,7 +520,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaCliente</servlet-name>
-        <servlet-class>ModificaCliente</servlet-class>
+        <servlet-class>unab.com.ModificaCliente</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaCliente</servlet-name>
@@ -528,7 +528,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaCliente</servlet-name>
-        <servlet-class>EliminaCliente</servlet-class>
+        <servlet-class>unab.com.EliminaCliente</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaCliente</servlet-name>
@@ -536,7 +536,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ControlFilPedido</servlet-name>
-        <servlet-class>ControlFilPedido</servlet-class>
+        <servlet-class>unab.com.ControlFilPedido</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ControlFilPedido</servlet-name>
@@ -544,7 +544,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ControlListaPedido</servlet-name>
-        <servlet-class>ControlListaPedido</servlet-class>
+        <servlet-class>unab.com.ControlListaPedido</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ControlListaPedido</servlet-name>
@@ -552,7 +552,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaPedido</servlet-name>
-        <servlet-class>ModificaPedido</servlet-class>
+        <servlet-class>unab.com.ModificaPedido</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaPedido</servlet-name>
@@ -561,7 +561,7 @@
 		
 	<servlet>
         <servlet-name>GrabaStock</servlet-name>
-        <servlet-class>GrabaStock</servlet-class>
+        <servlet-class>unab.com.GrabaStock</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaStock</servlet-name>
@@ -570,7 +570,7 @@
 		
 	<servlet>
         <servlet-name>ModificaStock</servlet-name>
-        <servlet-class>ModificaStock</servlet-class>
+        <servlet-class>unab.com.ModificaStock</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaStock</servlet-name>
@@ -579,7 +579,7 @@
 	
 	<servlet>
         <servlet-name>GrabaProgramaProduccion</servlet-name>
-        <servlet-class>GrabaProgramaProduccion</servlet-class>
+        <servlet-class>unab.com.GrabaProgramaProduccion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaProgramaProduccion</servlet-name>
@@ -588,7 +588,7 @@
 		
 	<servlet>
         <servlet-name>GrabaEspecificarProduccion</servlet-name>
-        <servlet-class>GrabaEspecificarProduccion</servlet-class>
+        <servlet-class>unab.com.GrabaEspecificarProduccion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaEspecificarProduccion</servlet-name>
@@ -597,7 +597,7 @@
 	
 	<servlet>
         <servlet-name>GrabaEntregaInsumo</servlet-name>
-        <servlet-class>GrabaEntregaInsumo</servlet-class>
+        <servlet-class>unab.com.GrabaEntregaInsumo</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaEntregaInsumo</servlet-name>
@@ -606,7 +606,7 @@
 	
 	<servlet>
         <servlet-name>GrabaProductoLinea</servlet-name>
-        <servlet-class>GrabaProductoLinea</servlet-class>
+        <servlet-class>unab.com.GrabaProductoLinea</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaProductoLinea</servlet-name>
@@ -615,7 +615,7 @@
     
 	<servlet>
         <servlet-name>ModificaProgramaProduccion</servlet-name>
-        <servlet-class>ModificaProgramaProduccion</servlet-class>
+        <servlet-class>unab.com.ModificaProgramaProduccion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaProgramaProduccion</servlet-name>
@@ -624,7 +624,7 @@
 	
 	<servlet>
         <servlet-name>GrabaCapturaProduccion</servlet-name>
-        <servlet-class>GrabaCapturaProduccion</servlet-class>
+        <servlet-class>unab.com.GrabaCapturaProduccion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaCapturaProduccion</servlet-name>
@@ -633,7 +633,7 @@
 	
 	<servlet>
         <servlet-name>GrabaDevolucionInsumo</servlet-name>
-        <servlet-class>GrabaDevolucionInsumo</servlet-class>
+        <servlet-class>unab.com.GrabaDevolucionInsumo</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaDevolucionInsumo</servlet-name>
@@ -642,7 +642,7 @@
 	
 	<servlet>
         <servlet-name>ModificaProductoLinea</servlet-name>
-        <servlet-class>ModificaProductoLinea</servlet-class>
+        <servlet-class>unab.com.ModificaProductoLinea</servlet-class>
     </servlet>
 	 <servlet-mapping>
         <servlet-name>ModificaProductoLinea</servlet-name>
@@ -651,7 +651,7 @@
 	
 	<servlet>
         <servlet-name>EliminaProductoLinea</servlet-name>
-        <servlet-class>EliminaProductoLinea</servlet-class>
+        <servlet-class>unab.com.EliminaProductoLinea</servlet-class>
     </servlet>
 	 <servlet-mapping>
         <servlet-name>EliminaProductoLinea</servlet-name>
@@ -660,7 +660,7 @@
 	
 	<servlet>
         <servlet-name>EliminaStock</servlet-name>
-        <servlet-class>EliminaStock</servlet-class>
+        <servlet-class>unab.com.EliminaStock</servlet-class>
     </servlet>
 	 <servlet-mapping>
         <servlet-name>EliminaStock</servlet-name>
@@ -669,7 +669,7 @@
 	
 	<servlet>
         <servlet-name>GrabaIngresoInsumo</servlet-name>
-        <servlet-class>GrabaIngresoInsumo</servlet-class>
+        <servlet-class>unab.com.GrabaIngresoInsumo</servlet-class>
     </servlet>
 	 <servlet-mapping>
         <servlet-name>GrabaIngresoInsumo</servlet-name>
@@ -678,7 +678,7 @@
 	
 	<servlet>
         <servlet-name>GrabaSolicitudProducto</servlet-name>
-        <servlet-class>GrabaSolicitudProducto</servlet-class>
+        <servlet-class>unab.com.GrabaSolicitudProducto</servlet-class>
     </servlet>
 	 <servlet-mapping>
         <servlet-name>GrabaSolicitudProducto</servlet-name>
@@ -687,7 +687,7 @@
 	
     <servlet>
         <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>HelloWorld</servlet-class>
+        <servlet-class>unab.com.HelloWorld</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>

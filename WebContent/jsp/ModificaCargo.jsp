@@ -1,6 +1,6 @@
 <%@ page import="java.util.*" %>
 <%@ page import="unab.com.*" %>
-<jsp:useBean id="cargo" class="Cargo" scope="session"/>
+<jsp:useBean id="cargo" class="unab.com.Cargo" scope="session"/>
 <%
 String filcargo = request.getParameter("filcargo");
 String codigo = request.getParameter("seleccion");
