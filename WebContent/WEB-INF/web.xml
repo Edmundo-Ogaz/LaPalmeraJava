@@ -387,7 +387,7 @@
 	
 	<servlet>
         <servlet-name>GrabaComuna</servlet-name>
-        <servlet-class>GrabaComuna</servlet-class>
+        <servlet-class>unab.com.GrabaComuna</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaComuna</servlet-name>
@@ -395,7 +395,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaComuna</servlet-name>
-        <servlet-class>ModificaComuna</servlet-class>
+        <servlet-class>unab.com.ModificaComuna</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaComuna</servlet-name>
@@ -403,7 +403,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaComuna</servlet-name>
-        <servlet-class>EliminaComuna</servlet-class>
+        <servlet-class>unab.com.EliminaComuna</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaComuna</servlet-name>
@@ -412,7 +412,7 @@
 	
 	<servlet>
         <servlet-name>GrabaCiudad</servlet-name>
-        <servlet-class>GrabaCiudad</servlet-class>
+        <servlet-class>unab.com.GrabaCiudad</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaCiudad</servlet-name>
@@ -420,7 +420,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaCiudad</servlet-name>
-        <servlet-class>ModificaCiudad</servlet-class>
+        <servlet-class>unab.com.ModificaCiudad</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaCiudad</servlet-name>
@@ -428,7 +428,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaCiudad</servlet-name>
-        <servlet-class>EliminaCiudad</servlet-class>
+        <servlet-class>unab.com.EliminaCiudad</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaCiudad</servlet-name>

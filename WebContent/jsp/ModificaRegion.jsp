@@ -1,6 +1,6 @@
 <%@ page import="java.util.*" %>
 <%@ page import="unab.com.*" %>
-<jsp:useBean id="region" class="Region" scope="session"/>
+<jsp:useBean id="region" class="unab.com.Region" scope="session"/>
 <%
 String filregion = request.getParameter("filregion");
 String codigo = request.getParameter("seleccion");
