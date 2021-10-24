@@ -2,7 +2,7 @@
     
 	<servlet>
         <servlet-name>GrabaServlet</servlet-name>
-        <servlet-class>unab.com.GrabaServlet</servlet-class>
+        <servlet-class>cl.laPalmera.graba.GrabaServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaServlet</servlet-name>

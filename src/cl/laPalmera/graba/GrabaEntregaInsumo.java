@@ -7,6 +7,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import unab.com.Mail;
+import unab.com.EntregaInsumo;
+import unab.com.DetalleEntregaInsumo;
+import unab.com.Stock;
+import unab.com.Ubicacion;
+import unab.com.Insumo;
 
 
 public class GrabaEntregaInsumo extends HttpServlet

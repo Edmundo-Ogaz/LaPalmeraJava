@@ -6,6 +6,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import unab.com.DevolucionInsumo;
+import unab.com.DetalleDevolucionInsumo;
+import unab.com.Stock;
+
 
 public class GrabaDevolucionInsumo extends HttpServlet
 {
