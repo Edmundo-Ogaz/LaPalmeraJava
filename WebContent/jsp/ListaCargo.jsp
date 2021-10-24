@@ -56,19 +56,19 @@ Nombre
 </th>
 </tr>	
 <%
-int i = 1;
-ArrayList<Cargo> arrayCargo= new ArrayList<Cargo>();
-ManejadorCargo manCargo= new ManejadorCargo();
+		int i = 1;
+		ArrayList<Cargo> arrayCargo= new ArrayList<Cargo>();
+		ManejadorCargo manCargo= new ManejadorCargo();
 
-manCargo.setCodigoCargo(filcargo);
-//manCargo.setNombreCargo(nombre);
+		manCargo.setCodigoCargo(filcargo);
+		//manCargo.setNombreCargo(nombre);
 
-arrayCargo= manCargo.consultar();
-Iterator itCargo= arrayCargo.iterator();
-while (itCargo.hasNext())
- {
-Cargo cargo= (Cargo) itCargo.next();
- %>
+		arrayCargo= manCargo.consultar();
+		Iterator itCargo= arrayCargo.iterator();
+		while (itCargo.hasNext())
+		 {
+		Cargo cargo= (Cargo) itCargo.next();
+	%>
 <tr>
 <td>
 <input type = radio name = seleccion value = <%=cargo.getCodigoCargo()%>>

@@ -412,7 +412,7 @@
 	
 	<servlet>
         <servlet-name>GrabaCiudad</servlet-name>
-        <servlet-class>unab.com.GrabaCiudad</servlet-class>
+        <servlet-class>cl.laPalmera.graba.GrabaCiudad</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaCiudad</servlet-name>
@@ -420,7 +420,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaCiudad</servlet-name>
-        <servlet-class>unab.com.ModificaCiudad</servlet-class>
+        <servlet-class>cl.laPalmera.modifica.ModificaCiudad</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaCiudad</servlet-name>
@@ -428,7 +428,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaCiudad</servlet-name>
-        <servlet-class>unab.com.EliminaCiudad</servlet-class>
+        <servlet-class>cl.laPalmera.elimina.EliminaCiudad</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaCiudad</servlet-name>
@@ -437,7 +437,7 @@
 	
 	<servlet>
         <servlet-name>GrabaRegion</servlet-name>
-        <servlet-class>unab.com.GrabaRegion</servlet-class>
+        <servlet-class>cl.laPalmera.graba.GrabaRegion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GrabaRegion</servlet-name>
@@ -445,7 +445,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>ModificaRegion</servlet-name>
-        <servlet-class>unab.com.ModificaRegion</servlet-class>
+        <servlet-class>cl.laPalmera.modifica.ModificaRegion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaRegion</servlet-name>
@@ -453,7 +453,7 @@
     </servlet-mapping>
 	<servlet>
         <servlet-name>EliminaRegion</servlet-name>
-        <servlet-class>unab.com.EliminaRegion</servlet-class>
+        <servlet-class>cl.laPalmera.elimina.EliminaRegion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminaRegion</servlet-name>

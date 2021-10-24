@@ -33,17 +33,20 @@ Apellido Materno Funcionario</td>
 <td>
 Cargo</td>
 <td>
-<% {
+<%
+	{
 ArrayList<Cargo> arrayCargo= new ArrayList<Cargo>();
 ManejadorCargo manCargo= new ManejadorCargo();
 arrayCargo=manCargo.consultar();
 %>
 <SELECT size=1 name=filcargo>
 <OPTION VALUE="">Todos</OPTION>
-<%Iterator itCargo= arrayCargo.iterator();
+<%
+	Iterator itCargo= arrayCargo.iterator();
 while (itCargo.hasNext())
     {
-Cargo cargo= (Cargo) itCargo.next();%>
+Cargo cargo= (Cargo) itCargo.next();
+%>
 <OPTION VALUE=<%=cargo.getCodigoCargo()%>> <%=cargo.getNombreCargo()%></OPTION>
 <%}}%>
 </SELECT></td>

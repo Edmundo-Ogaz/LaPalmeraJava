@@ -11,13 +11,15 @@ Cargo</td>
 <td>
 <SELECT size=1 name=filcargo> 
 <OPTION VALUE="">TODOS</OPTION>
-<% {
+<%
+	{
 ArrayList<Cargo> arrayCargo= new ArrayList<Cargo>();
 ManejadorCargo manCargo= new ManejadorCargo();
 arrayCargo=manCargo.consultar();
 %>
 
-<%Iterator itCargo= arrayCargo.iterator();
+<%
+	Iterator itCargo= arrayCargo.iterator();
 while (itCargo.hasNext())
     {
 Cargo cargo= (Cargo) itCargo.next();

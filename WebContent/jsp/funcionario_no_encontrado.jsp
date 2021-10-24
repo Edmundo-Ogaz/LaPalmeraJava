@@ -131,9 +131,11 @@ function validar(formulario) {
 			vecCargo = manCargo.consultar();%>
 			<%Enumeration enumCargo = vecCargo.elements();%>
 			   <td><SELECT size="1" name="cargo">
-			  <%while (enumCargo.hasMoreElements())
-    			{
-		     Cargo cargo = (Cargo) enumCargo.nextElement();%>
+			  <%
+			  	while (enumCargo.hasMoreElements())
+			  	      			{
+			  	  		     Cargo cargo = (Cargo) enumCargo.nextElement();
+			  %>
 		     <OPTION VALUE="<%=cargo.getCodigoCargo()%>"> <%=cargo.getNombreCargo()%></OPTION>
 		   <%}%>
 			</SELECT></td>

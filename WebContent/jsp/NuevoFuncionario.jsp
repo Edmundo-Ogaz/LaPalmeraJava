@@ -131,13 +131,15 @@ C&oacute;digo Cargo
 <td>
 <SELECT size=1 name=cargo>
 <OPTION VALUE=-1>SELECCIONE CARGO</OPTION>
-<% {
+<%
+	{
 ArrayList<Cargo> arrayCargo= new ArrayList<Cargo>();
 ManejadorCargo manCargo= new ManejadorCargo();
 arrayCargo=manCargo.consultar();
 %>
 
-<%Iterator itCargo= arrayCargo.iterator();
+<%
+	Iterator itCargo= arrayCargo.iterator();
 while (itCargo.hasNext())
     {
 Cargo cargo= (Cargo) itCargo.next();

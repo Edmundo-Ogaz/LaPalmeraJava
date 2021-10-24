@@ -147,16 +147,19 @@ C&oacute;digo Cargo :
 <td>
 <SELECT size=1 name=cargo>
 <OPTION VALUE=-1>SELECCIONE CARGO</OPTION>
-<% 
-ArrayList<Cargo> arrayCargo= new ArrayList<Cargo>();
+<%
+	ArrayList<Cargo> arrayCargo= new ArrayList<Cargo>();
 ManejadorCargo manCargo= new ManejadorCargo();
-arrayCargo=manCargo.consultar();%>
+arrayCargo=manCargo.consultar();
+%>
 
-<%Iterator itCargo= arrayCargo.iterator();
+<%
+	Iterator itCargo= arrayCargo.iterator();
 while (itCargo.hasNext())
     {
 Cargo cargo2= (Cargo) itCargo.next();
-if (cargo.equals(cargo2.getCodigoCargo())){%>
+if (cargo.equals(cargo2.getCodigoCargo())){
+%>
 <OPTION selected="selected" VALUE=<%=cargo2.getCodigoCargo()%>> <%=cargo2.getNombreCargo()%></OPTION>
 <%}else{%>
 <OPTION VALUE=<%=cargo2.getCodigoCargo()%>> <%=cargo2.getNombreCargo()%></OPTION>

@@ -54,9 +54,11 @@
 				<%Vector vecRep;
 				vecRep = manCargo.consultar();%>
 				<%Enumeration enumRep = vecRep.elements();%>
-				<%while (enumRep.hasMoreElements())
-			    {
-			    	Cargo cargo = (Cargo) enumRep.nextElement();%>
+				<%
+					while (enumRep.hasMoreElements())
+							    {
+							    	Cargo cargo = (Cargo) enumRep.nextElement();
+				%>
 			    	<tr>
 			  			<td width="20" align="right">&nbsp;<%=cargo.getCodigoCargo()%></td>
       					<td width="110" align="left">&nbsp;<%=cargo.getNombreCargo()%></td>
