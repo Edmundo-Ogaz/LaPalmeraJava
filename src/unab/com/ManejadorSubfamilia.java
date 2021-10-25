@@ -38,7 +38,7 @@ public class ManejadorSubfamilia {
    public ArrayList consultar() {
       ArrayList var1 = new ArrayList();
       String var2 = "root";
-      String var3 = "jochua";
+      String var3 = "";
       String var4 = "jdbc:mysql://localhost/lapalmera";
       Connection var5 = null;
 

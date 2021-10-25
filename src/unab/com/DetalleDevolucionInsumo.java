@@ -44,7 +44,7 @@ public class DetalleDevolucionInsumo {
 
    public void grabar() {
       String var1 = "root";
-      String var2 = "jochua";
+      String var2 = "";
       String var3 = "jdbc:mysql://localhost/lapalmera";
       Connection var4 = null;
 

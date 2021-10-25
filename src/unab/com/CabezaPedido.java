@@ -82,7 +82,7 @@ public class CabezaPedido {
    public int grabar() {
       int var1 = 0;
       String var2 = "root";
-      String var3 = "jochua";
+      String var3 = "";
       String var4 = "jdbc:mysql://localhost/lapalmera";
       Connection var5 = null;
 
@@ -119,7 +119,7 @@ public class CabezaPedido {
    public int modificar() {
       int var1 = 0;
       String var2 = "root";
-      String var3 = "jochua";
+      String var3 = "";
       String var4 = "jdbc:mysql://localhost/lapalmera";
       Connection var5 = null;
 
@@ -157,7 +157,7 @@ public class CabezaPedido {
    public int eliminar() {
       int var1 = 0;
       String var2 = "root";
-      String var3 = "jochua";
+      String var3 = "";
       String var4 = "jdbc:mysql://localhost/lapalmera";
       Connection var5 = null;
 
@@ -187,7 +187,7 @@ public class CabezaPedido {
 
    public String buscarUltimo() {
       String var1 = "root";
-      String var2 = "jochua";
+      String var2 = "";
       String var3 = "jdbc:mysql://localhost/lapalmera";
       Connection var4 = null;
 
@@ -220,7 +220,7 @@ public class CabezaPedido {
    public boolean buscar() {
       boolean var1 = false;
       String var2 = "root";
-      String var3 = "jochua";
+      String var3 = "";
       String var4 = "jdbc:mysql://localhost/lapalmera";
       Connection var5 = null;
 

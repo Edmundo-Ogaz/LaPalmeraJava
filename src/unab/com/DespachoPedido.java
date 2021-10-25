@@ -46,7 +46,7 @@ public class DespachoPedido {
    public int grabar() {
       int var1 = 0;
       String var2 = "root";
-      String var3 = "jochua";
+      String var3 = "";
       String var4 = "jdbc:mysql://localhost/lapalmera";
       Connection var5 = null;
 
@@ -80,7 +80,7 @@ public class DespachoPedido {
    public int modificar() {
       int var1 = 0;
       String var2 = "root";
-      String var3 = "jochua";
+      String var3 = "";
       String var4 = "jdbc:mysql://localhost/lapalmera";
       Connection var5 = null;
 
@@ -114,7 +114,7 @@ public class DespachoPedido {
    public int eliminar() {
       int var1 = 0;
       String var2 = "root";
-      String var3 = "jochua";
+      String var3 = "";
       String var4 = "jdbc:mysql://localhost/lapalmera";
       Connection var5 = null;
 
@@ -145,7 +145,7 @@ public class DespachoPedido {
    public boolean buscar() {
       boolean var1 = false;
       String var2 = "root";
-      String var3 = "jochua";
+      String var3 = "";
       String var4 = "jdbc:mysql://localhost/lapalmera";
       Connection var5 = null;
 

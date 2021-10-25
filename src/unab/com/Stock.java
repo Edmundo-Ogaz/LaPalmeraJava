@@ -46,7 +46,7 @@ public class Stock {
 
    public int grabar() {
       String var1 = "root";
-      String var2 = "jochua";
+      String var2 = "";
       String var3 = "jdbc:mysql://localhost/lapalmera";
       Connection var4 = null;
 
@@ -79,7 +79,7 @@ public class Stock {
 
    public int modificar() {
       String var1 = "root";
-      String var2 = "jochua";
+      String var2 = "";
       String var3 = "jdbc:mysql://localhost/lapalmera";
       Connection var4 = null;
 
@@ -113,7 +113,7 @@ public class Stock {
 
    public int eliminar() {
       String var1 = "root";
-      String var2 = "jochua";
+      String var2 = "";
       String var3 = "jdbc:mysql://localhost/lapalmera";
       Connection var4 = null;
 
@@ -144,7 +144,7 @@ public class Stock {
    public boolean buscar() {
       boolean var1 = false;
       String var2 = "root";
-      String var3 = "jochua";
+      String var3 = "";
       String var4 = "jdbc:mysql://localhost/lapalmera";
       Connection var5 = null;
 

@@ -64,7 +64,7 @@ public class ManejadorEspecificarProduccion {
 
    public ArrayList consultar() {
       String var1 = "root";
-      String var2 = "jochua";
+      String var2 = "";
       String var3 = "jdbc:mysql://localhost/palmera";
       Connection var4 = null;
       ArrayList var5 = new ArrayList();
