@@ -6,6 +6,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import unab.com.CabezaPedido;
+import unab.com.ConfirmacionPedido;
+import unab.com.DespachoPedido;
+import unab.com.DetallePedido;
+import unab.com.OrdenFabricacion;
+import unab.com.ProductoLinea;
+import unab.com.ProgramaProduccion;
+import unab.com.Stock;
+
 
 public class ModificaPedido extends HttpServlet
 {

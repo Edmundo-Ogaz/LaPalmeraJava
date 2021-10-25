@@ -8,6 +8,15 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import unab.com.Mail;
+import unab.com.CabezaPedido;
+import unab.com.DetallePedido;
+import unab.com.DespachoPedido;
+import unab.com.ConfirmacionPedido;
+import unab.com.Stock;
+import unab.com.OrdenFabricacion;
+import unab.com.ProgramaProduccion;
+import unab.com.ProductoLinea;
+import unab.com.Insumo;
 
 
 public class GrabaSolicitudProducto extends HttpServlet
