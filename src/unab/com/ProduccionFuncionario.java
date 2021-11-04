@@ -27,7 +27,7 @@ public class ProduccionFuncionario {
    public void grabar() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
 
       try {

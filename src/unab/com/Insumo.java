@@ -64,7 +64,7 @@ public class Insumo {
    public void grabar() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
 
       try {
@@ -100,7 +100,7 @@ public class Insumo {
    public void modificar() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
 
       try {
@@ -133,7 +133,7 @@ public class Insumo {
    public void eliminar() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
 
       try {
@@ -162,7 +162,7 @@ public class Insumo {
       boolean var1 = false;
       String var2 = "root";
       String var3 = "";
-      String var4 = "jdbc:mysql://localhost/lapalmera";
+      String var4 = "jdbc:mysql://localhost/lapalmera2";
       Connection var5 = null;
 
       try {
@@ -180,7 +180,7 @@ public class Insumo {
                this.codigoUnidadMedida = var8.getString(3);
                this.stockCriticoInsumo = var8.getString(4);
                this.pesoInsumo = var8.getString(5);
-               this.observacionInsumo = var8.getString(11);
+               this.observacionInsumo = var8.getString(10);
                var1 = true;
             }
 

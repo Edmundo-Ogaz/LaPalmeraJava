@@ -30,7 +30,7 @@ public class ManejadorUnidadMedida {
       ArrayList var1 = new ArrayList();
       String var2 = "root";
       String var3 = "";
-      String var4 = "jdbc:mysql://localhost/lapalmera";
+      String var4 = "jdbc:mysql://localhost/lapalmera2";
       Connection var5 = null;
 
       try {

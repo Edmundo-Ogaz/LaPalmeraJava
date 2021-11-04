@@ -47,7 +47,7 @@ public class DespachoPedido {
       int var1 = 0;
       String var2 = "root";
       String var3 = "";
-      String var4 = "jdbc:mysql://localhost/lapalmera";
+      String var4 = "jdbc:mysql://localhost/lapalmera2";
       Connection var5 = null;
 
       try {
@@ -81,7 +81,7 @@ public class DespachoPedido {
       int var1 = 0;
       String var2 = "root";
       String var3 = "";
-      String var4 = "jdbc:mysql://localhost/lapalmera";
+      String var4 = "jdbc:mysql://localhost/lapalmera2";
       Connection var5 = null;
 
       try {
@@ -115,7 +115,7 @@ public class DespachoPedido {
       int var1 = 0;
       String var2 = "root";
       String var3 = "";
-      String var4 = "jdbc:mysql://localhost/lapalmera";
+      String var4 = "jdbc:mysql://localhost/lapalmera2";
       Connection var5 = null;
 
       try {
@@ -146,7 +146,7 @@ public class DespachoPedido {
       boolean var1 = false;
       String var2 = "root";
       String var3 = "";
-      String var4 = "jdbc:mysql://localhost/lapalmera";
+      String var4 = "jdbc:mysql://localhost/lapalmera2";
       Connection var5 = null;
 
       try {

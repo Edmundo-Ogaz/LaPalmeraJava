@@ -47,7 +47,7 @@ public class ManejadorDetallePedido {
    public ArrayList consultar() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
       ArrayList var5 = new ArrayList();
 

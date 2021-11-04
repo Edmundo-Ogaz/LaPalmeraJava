@@ -64,7 +64,7 @@ public class DevolucionInsumo {
    public void grabar() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
 
       try {
@@ -96,7 +96,7 @@ public class DevolucionInsumo {
    public String buscarUltimo() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
 
       try {

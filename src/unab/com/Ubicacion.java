@@ -91,7 +91,7 @@ public class Ubicacion {
    public void grabar() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
 
       try {
@@ -127,7 +127,7 @@ public class Ubicacion {
    public void modificar() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
 
       try {
@@ -168,7 +168,7 @@ public class Ubicacion {
    public void eliminar() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
 
       try {
@@ -201,7 +201,7 @@ public class Ubicacion {
       boolean var1 = false;
       String var2 = "root";
       String var3 = "";
-      String var4 = "jdbc:mysql://localhost/lapalmera";
+      String var4 = "jdbc:mysql://localhost/lapalmera2";
       Connection var5 = null;
 
       try {

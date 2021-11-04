@@ -65,7 +65,7 @@ public class ManejadorInsumo {
    public ArrayList consultar() {
       String var1 = "root";
       String var2 = "";
-      String var3 = "jdbc:mysql://localhost/lapalmera";
+      String var3 = "jdbc:mysql://localhost/lapalmera2";
       Connection var4 = null;
       ArrayList var5 = new ArrayList();
 
@@ -108,7 +108,7 @@ public class ManejadorInsumo {
                var9.setCodigoUnidadMedida(var8.getString(3));
                var9.setStockCriticoInsumo(var8.getString(4));
                var9.setPesoInsumo(var8.getString(5));
-               var9.setObservacionInsumo(var8.getString(11));
+               var9.setObservacionInsumo(var8.getString(10));
                var5.add(var9);
             }
 
