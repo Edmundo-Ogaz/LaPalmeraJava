@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=iso-8859-1" language="java" import="java.sql.*" errorPage="" %>
 <%@ page import="java.util.*" %>
 <%@ page import="unab.com.*" %>
-<jsp:useBean id="arraySolicitudProducto" class="ArrayList<DetallePedido>" scope="session"/>
+<jsp:useBean id="arraySolicitudProducto" class="java.util.ArrayList" scope="session"/>
 
 <%
   int indice;    

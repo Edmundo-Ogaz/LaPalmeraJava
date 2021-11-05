@@ -8,12 +8,17 @@ import java.util.ArrayList;
 
 public class ManejadorDespachoPedido {
    private String numeroPedido = "";
+   private String nombreCliente = "";
    private String direccionDespacho = "";
    private String fechaEntregaDespacho = "";
    private String horaEntregaDespacho = "";
 
    public void setNumeroPedido(String var1) {
       this.numeroPedido = var1;
+   }
+   
+   public void setNombreCliente(String var1) {
+      this.nombreCliente = var1;
    }
 
    public void setDireccionDespacho(String var1) {
@@ -30,6 +35,10 @@ public class ManejadorDespachoPedido {
 
    public String getNumeroPedido() {
       return this.numeroPedido;
+   }
+   
+   public String getNombreCliente() {
+      return this.nombreCliente;
    }
 
    public String getDireccionDespacho() {
@@ -60,6 +69,10 @@ public class ManejadorDespachoPedido {
             if (!this.numeroPedido.equals("")) {
                var7 = var7 + "     and numeroPedido = " + this.numeroPedido;
             }
+            
+            if (!this.nombreCliente.equals("")) {
+            	var7 = var7 + "     and nombreCliente = '" + this.nombreCliente + "'";
+            }
 
             if (!this.direccionDespacho.equals("")) {
                var7 = var7 + "     and direccionDespacho = '" + this.direccionDespacho + "'";
@@ -78,9 +91,10 @@ public class ManejadorDespachoPedido {
             while(var8.next()) {
                DespachoPedido var9 = new DespachoPedido();
                var9.setNumeroPedido(var8.getString(1));
-               var9.setDireccionDespacho(var8.getString(2));
-               var9.setFechaEntregaDespacho(var8.getString(3));
-               var9.setHoraEntregaDespacho(var8.getString(4));
+               var9.setNombreCliente(var8.getString(2));
+               var9.setDireccionDespacho(var8.getString(3));
+               var9.setFechaEntregaDespacho(var8.getString(4));
+               var9.setHoraEntregaDespacho(var8.getString(5));
                var5.add(var9);
             }
 

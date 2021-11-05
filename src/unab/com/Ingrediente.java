@@ -85,6 +85,7 @@ public class Ingrediente {
    }
 
    public void modificar() {
+	   System.out.println("Ingrediente modificar");
       String var1 = "root";
       String var2 = "";
       String var3 = "jdbc:mysql://localhost/lapalmera2";

@@ -19,6 +19,7 @@ public class ModificaIngrediente extends HttpServlet
     public void doGet(HttpServletRequest httpservletrequest, HttpServletResponse httpservletresponse)
         throws IOException, ServletException
     {
+    	System.out.println("ModificaIngrediente doGet");
         String opcion = httpservletrequest.getParameter("Enviar");
       	String filproducto = httpservletrequest.getParameter("filproducto");
         String filinsumo = httpservletrequest.getParameter("filinsumo");

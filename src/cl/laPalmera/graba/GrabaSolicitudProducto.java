@@ -47,7 +47,7 @@ public class GrabaSolicitudProducto extends HttpServlet
 	          ProgramaProduccion programaProduccion= new ProgramaProduccion();
 	                 	      
 	          //CabezaPedido cabezaPedido = new CabezaPedido();
-			  cabezaPedido.setNombreCliente("Pasteler�a La Palmera");
+			  cabezaPedido.setNombreCliente("Pastelería La Palmera");
 			  cabezaPedido.setFechaPedido(new java.text.SimpleDateFormat("yyy-MM-dd").format(new java.util.Date()));
 			  cabezaPedido.setHoraPedido(new java.text.SimpleDateFormat("hh:mm:ss").format(new java.util.Date()));
 			  cabezaPedido.setPrecioTotalPedido("0");
@@ -81,6 +81,7 @@ public class GrabaSolicitudProducto extends HttpServlet
 			
 			//DespachoPedido despachoPedido = new DespachoPedido();
 			despachoPedido.setNumeroPedido(numeropedido);
+			despachoPedido.setNombreCliente("Pastelería La Palmera");
 			despachoPedido.setDireccionDespacho("Venta");
 			despachoPedido.setFechaEntregaDespacho(httpservletrequest.getParameter("fechaentrega"));
 			despachoPedido.setHoraEntregaDespacho(httpservletrequest.getParameter("horaentrega"));

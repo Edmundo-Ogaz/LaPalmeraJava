@@ -7,12 +7,17 @@ import java.sql.Statement;
 
 public class DespachoPedido {
    private String numeroPedido = "";
+   private String nombreCliente = "";
    private String direccionDespacho = "";
    private String fechaEntregaDespacho = "";
    private String horaEntregaDespacho = "";
 
    public void setNumeroPedido(String var1) {
       this.numeroPedido = var1;
+   }
+   
+   public void setNombreCliente(String var1) {
+      this.nombreCliente = var1;
    }
 
    public void setDireccionDespacho(String var1) {
@@ -29,6 +34,10 @@ public class DespachoPedido {
 
    public String getNumeroPedido() {
       return this.numeroPedido;
+   }
+   
+   public String getNombreCliente() {
+      return this.nombreCliente;
    }
 
    public String getDireccionDespacho() {
@@ -57,6 +66,7 @@ public class DespachoPedido {
             Statement var6 = var5.createStatement();
             String var7 = "insert into DespachoPedido values (";
             var7 = var7 + this.numeroPedido + ",";
+            var7 = var7 + "'" + this.nombreCliente + "',";
             var7 = var7 + "'" + this.direccionDespacho + "',";
             var7 = var7 + "'" + this.fechaEntregaDespacho + "',";
             var7 = var7 + "'" + this.horaEntregaDespacho + "')";
@@ -91,6 +101,7 @@ public class DespachoPedido {
             Statement var6 = var5.createStatement();
             String var7 = "update despachopedido set ";
             var7 = var7 + "numeropedido = " + this.numeroPedido + ", ";
+            var7 = var7 + "nombreCliente = " + "'" + this.nombreCliente + "', ";
             var7 = var7 + "direccionDespacho = " + "'" + this.direccionDespacho + "', ";
             var7 = var7 + "fechaentregadespacho = " + "'" + this.fechaEntregaDespacho + "', ";
             var7 = var7 + "horaentregadespacho = " + "'" + this.horaEntregaDespacho + "' where numeropedido = " + this.numeroPedido + "";
@@ -160,9 +171,10 @@ public class DespachoPedido {
             if (var8.next()) {
                System.out.println("Lo encontro");
                this.numeroPedido = var8.getString(1);
-               this.direccionDespacho = var8.getString(2);
-               this.fechaEntregaDespacho = var8.getString(3);
-               this.horaEntregaDespacho = var8.getString(4);
+               this.nombreCliente = var8.getString(2);
+               this.direccionDespacho = var8.getString(3);
+               this.fechaEntregaDespacho = var8.getString(4);
+               this.horaEntregaDespacho = var8.getString(5);
                var1 = true;
             }
 
