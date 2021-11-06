@@ -6,10 +6,15 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class DetallePedido {
+   private int id  = 0;
    private String numeroPedido = "";
    private String codigoProducto = "";
    private String precioProducto = "";
    private String cantidadProducto = "";
+   
+   public void setId(int id) {
+      this.id = id;
+   }
 
    public void setNumeroPedido(String var1) {
       this.numeroPedido = var1;
@@ -25,6 +30,10 @@ public class DetallePedido {
 
    public void setCantidadProducto(String var1) {
       this.cantidadProducto = var1;
+   }
+   
+   public int getId() {
+      return this.id;
    }
 
    public String getNumeroPedido() {
@@ -56,6 +65,7 @@ public class DetallePedido {
          if (var5 != null) {
             Statement var6 = var5.createStatement();
             String var7 = "insert into DetallePedido values (";
+            var7 = var7 + "NULL" + ",";
             var7 = var7 + this.numeroPedido + ",";
             var7 = var7 + "'" + this.codigoProducto + "',";
             var7 = var7 + this.precioProducto + ",";
@@ -161,10 +171,11 @@ public class DetallePedido {
             ResultSet var8 = var6.executeQuery(var7);
             if (var8.next()) {
                System.out.println("Lo encontro");
-               this.numeroPedido = var8.getString(1);
-               this.codigoProducto = var8.getString(2);
-               this.precioProducto = var8.getString(3);
-               this.cantidadProducto = var8.getString(4);
+               this.id = var8.getInt(1);
+               this.numeroPedido = var8.getString(2);
+               this.codigoProducto = var8.getString(3);
+               this.precioProducto = var8.getString(4);
+               this.cantidadProducto = var8.getString(5);
                var1 = true;
             }
 

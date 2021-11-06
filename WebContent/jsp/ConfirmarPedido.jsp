@@ -414,7 +414,7 @@ function ValidaEntrada() {
 
 <!--Datos del Producto-->
 
-<jsp:useBean id="arrayDetallePedidoTorta" class="ArrayList<DetallePedido>" scope="session"/>
+<jsp:useBean id="arrayDetallePedidoTorta" class="java.util.ArrayList" scope="session"/>
 
 <a href="javascript:seleccionar_todo()">Marcar todos</a> |
 <a href="javascript:deseleccionar_todo()">Marcar ninguno</a> 

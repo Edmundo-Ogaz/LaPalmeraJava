@@ -7,10 +7,15 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 public class ManejadorDetallePedido {
+   private int id = 0;
    private String numeroPedido = "";
    private String codigoProducto = "";
    private String precioProducto = "";
    private String cantidadProducto = "";
+   
+   public void seId(int id) {
+      this.id = id;
+   }
 
    public void setNumeroPedido(String var1) {
       this.numeroPedido = var1;
@@ -26,6 +31,10 @@ public class ManejadorDetallePedido {
 
    public void setCantidadProducto(String var1) {
       this.cantidadProducto = var1;
+   }
+   
+   public int getId() {
+      return this.id;
    }
 
    public String getNumeroPedido() {
@@ -77,10 +86,11 @@ public class ManejadorDetallePedido {
 
             while(var8.next()) {
                DetallePedido var9 = new DetallePedido();
-               var9.setNumeroPedido(var8.getString(1));
-               var9.setCodigoProducto(var8.getString(2));
-               var9.setPrecioProducto(var8.getString(3));
-               var9.setCantidadProducto(var8.getString(4));
+               var9.setId(var8.getInt(1));
+               var9.setNumeroPedido(var8.getString(2));
+               var9.setCodigoProducto(var8.getString(3));
+               var9.setPrecioProducto(var8.getString(4));
+               var9.setCantidadProducto(var8.getString(5));
                var5.add(var9);
             }
 
