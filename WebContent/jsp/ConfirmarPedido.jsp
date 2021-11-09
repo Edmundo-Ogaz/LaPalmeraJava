@@ -570,9 +570,9 @@ for (int m=0; m < arrayStockDetallePedido.size(); m++)
 &nbsp;
 <%if (Float.parseFloat(cantidadinsumo) < Float.parseFloat(stockdisponible))
 {%>
-<font color="#0000FF"><%=stockdisponible.substring(0,cantidadinsumo.indexOf(".")+4)%></font>
+<font color="#0000FF"><%=stockdisponible%></font>
 <%}else{%>
-<font color="#FF0000"><%=stockdisponible.substring(0,cantidadinsumo.indexOf(".")+4)%></font>
+<font color="#FF0000"><%=stockdisponible%></font>
 <%}%>	  
 </td>
 <td>
@@ -672,123 +672,8 @@ Datos para el Despacho
 <td>
 Direcci&oacute;n: *
 </td>
-</tr>
-<tr>
-<td>
-<% if (direcciondespacho.equals("O")){%>
-<table>
-<tr>
 <td> 
-Sucursal Osa 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="O" checked="checked"/>
-</td>
-</tr>
-<tr>
-<td> 
-Sucursal Uribe 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="U"/>
-</td>
-</tr>
-<tr>
-<td> 
-Direccion Cliente 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="C"/>
-</td>
-</tr>
-</table>
-<%}else{
-if (direcciondespacho.equals("U")){
-%>
-<table>
-<tr>
-<td> 
-Sucursal Osa 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="O"/>
-</td>
-</tr>
-<tr>
-<td> 
-Sucursal Uribe 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="U" checked="checked"/>
-</td>
-</tr>
-<tr>
-<td> 
-Direccion Cliente 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="C"/>
-</td>
-</tr>
-</table>
-<%}else{
-if (direcciondespacho.equals("C")){
-%>
-<table>
-<tr>
-<td> 
-Sucursal Osa 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="O" checked="checked"/>
-</td>
-</tr>
-<tr>
-<td> 
-Sucursal Uribe 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="U"/>
-</td>
-</tr>
-<tr>
-<td> 
-Direccion Cliente 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="C" checked="checked"/>
-</td>
-</tr>
-</table>
-<%}else{%>
-<table>
-<tr>
-<td> 
-Sucursal Osa 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="O" />
-</td>
-</tr>
-<tr>
-<td> 
-Sucursal Uribe 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="U"/>
-</td>
-</tr>
-<tr>
-<td>
-Direccion Cliente 
-</td>
-<td>
-<input type="radio" name="direcciondespacho" value="C" />
-</td>
-</tr>
-</table>
-<%}}}%>
-
+<input name="direcciondespacho" type="text" size="80" value="<%=direcciondespacho%>"/>	  
 </td>
 </tr>
 <tr>
